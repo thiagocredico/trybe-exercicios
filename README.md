@@ -7,8 +7,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Seção 1: [Unix e Bash](https://github.com/thiagocredico/trybe-exercicios/tree/main/fundamentos/secao-01-unix-e-bash)
-- [x] 1.3 - Unix & Bash - Parte 1
-- [x] 1.4 - Unix & Bash - Parte 2
+- [x] 1.1 - Unix & Bash - Parte 1
+- [x] 1.2 - Unix & Bash - Parte 2
 
 ##### Seção 2: [Git, GitHub e Internet](https://github.com/thiagocredico/trybe-exercicios/tree/main/fundamentos/secao-02-git-github-e-internet)
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
