@@ -1,0 +1,21 @@
+{
+  "name": "ex1-validador-de-campos",
+  "version": "1.0.0",
+  "description": "validador de campos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "keywords": [
+    "validador"
+  ],
+  "author": "thiago-credico",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3",
+    "validator": "^13.9.0",
+    "vite": "^4.1.1"
+  }
+}
