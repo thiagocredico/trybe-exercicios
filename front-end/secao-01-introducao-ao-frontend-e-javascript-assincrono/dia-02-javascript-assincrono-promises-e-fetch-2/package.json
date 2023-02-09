@@ -1,0 +1,18 @@
+{
+  "name": "dia-02-javascript-assincrono-promises-e-fetch-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.23.1",
+    "vite": "^4.1.1"
+  }
+}

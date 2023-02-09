@@ -47,7 +47,7 @@ button.addEventListener('click', (event) => {
     .catch((error) => Swal.fire({
       // Aqui, estamos usando a nossa biblioteca, mas
       // você pode usar a função window.alert() também
-      title: 'Hero not found',
+      title: 'Ooops... Hero not found!',
       text: error.message,
       icon: 'error',
       confirmButtonText: 'OK',
