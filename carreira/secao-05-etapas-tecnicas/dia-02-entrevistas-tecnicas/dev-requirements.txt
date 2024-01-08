@@ -1,0 +1,13 @@
+wheel==0.37.1
+black==22.1.0
+flake8==4.0.1
+pytest==7.0.1
+pytest-json==0.4.0
+click==8.0.4
+Flask==2.0.3
+itsdangerous==2.1.0
+Jinja2==3.0.3
+MarkupSafe==2.1.0
+Werkzeug==2.0.3
+python-dotenv==0.19.2
+Markdown==3.3.6
