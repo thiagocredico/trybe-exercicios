@@ -1,0 +1,35 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  outline: 0;
+}
+
+body {
+  background: #202024;
+  color: #E1E1E6;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;  
+}
+
+header {
+  height: 238px;
+  background: #00875F;
+}
+
+header .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+header .container h1 {
+  align-self: center;
+  justify-self: center;
+}
