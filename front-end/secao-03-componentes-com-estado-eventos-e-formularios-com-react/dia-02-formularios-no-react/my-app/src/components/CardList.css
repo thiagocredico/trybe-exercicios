@@ -1,0 +1,20 @@
+.cards-list .cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px
+}
+
+.cards-list input {
+  width: 300px;
+  height: 35px;
+  padding: 3px 7px 3px;
+  margin: 3.5rem 0;
+  display: inline-block;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

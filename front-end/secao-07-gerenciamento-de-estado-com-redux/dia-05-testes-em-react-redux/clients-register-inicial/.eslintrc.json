@@ -1,0 +1,7 @@
+{
+  "extends": "@trybe/eslint-config-frontend",
+  "rules": {
+    "react/prop-types": "off",
+    "sonarjs/no-duplicate-string": "off"
+  }
+}

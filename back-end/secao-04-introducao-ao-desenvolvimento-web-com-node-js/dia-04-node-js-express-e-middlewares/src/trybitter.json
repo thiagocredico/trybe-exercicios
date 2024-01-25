@@ -1,0 +1,50 @@
+[
+  6,
+  {
+    "id": 1,
+    "title": "Minha primeira postagem",
+    "description": "lorem ipsum dolor sit amet",
+    "author": "anônimo768",
+    "createdAt": "2023-06-15T21:10:33.420Z",
+    "updatedAt": "2023-06-15T21:10:33.420Z"
+  },
+  {
+    "id": 2,
+    "title": "3",
+    "description": "lorem ipsum dolor sit amet",
+    "author": "anônimo768",
+    "createdAt": "2023-06-15T21:12:57.513Z",
+    "updatedAt": "2023-06-15T21:12:57.513Z"
+  },
+  {
+    "id": 3,
+    "title": "Minha segunda postagem",
+    "description": "lorem ipsum dolor sit amet",
+    "author": "anônimo768",
+    "createdAt": "2023-06-15T21:19:26.115Z",
+    "updatedAt": "2023-06-15T21:19:26.115Z"
+  },
+  {
+    "id": 4,
+    "description": "lorem ipsum dolor sit amet",
+    "author": "anônimo768",
+    "createdAt": "2023-06-15T21:19:45.976Z",
+    "updatedAt": "2023-06-15T21:19:45.976Z"
+  },
+  {
+    "id": 5,
+    "title": "Minha 3a postagem",
+    "description": "lorem ipsum dolor sit amet",
+    "author": "anônimo768",
+    "createdAt": "2023-06-15T21:31:45.101Z",
+    "updatedAt": "2023-06-15T21:31:45.101Z"
+  },
+  {
+    "id": 6,
+    "title": "Minha 4a postagem",
+    "description": "lorem ipsum dolor sit amet",
+    "author": "anônimo768",
+    "createdAt": "2023-06-15T21:37:28.145Z",
+    "updatedAt": "2023-06-15T21:37:28.145Z"
+  }
+]

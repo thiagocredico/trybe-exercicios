@@ -1,0 +1,34 @@
+.Login {
+  width: 100%;
+  height: calc(100vh - 36px );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login__Container {
+  width: 400px;
+  height: auto;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin: 0 auto;
+}
+
+.Login__Container label {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.Login__Container input {
+  width: 100%;
+}
+
+.Login__Container button {
+  background-color: var(--grey);
+}
+
+.Login__Container img {
+  margin-bottom: 1em;
+}
+

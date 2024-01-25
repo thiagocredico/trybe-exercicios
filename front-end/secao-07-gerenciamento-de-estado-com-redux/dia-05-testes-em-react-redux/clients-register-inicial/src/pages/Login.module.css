@@ -1,0 +1,8 @@
+.login {
+  background-color: #333;
+  border-radius: 4px;
+  padding: 20px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}

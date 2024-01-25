@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simulação de CORS</title>
+</head>
+<body>
+  <button id="fetchButton">Invadir Sistema</button>
+
+  <script>
+    const fetchButton = document.getElementById('fetchButton');
+
+    const fetchUrl = 'http://localhost:3000/conversations/1';
+
+    fetchButton.addEventListener('click', () => {
+      fetch(fetchUrl)
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Erro:', error));
+    });
+  </script>
+</body>
+</html>

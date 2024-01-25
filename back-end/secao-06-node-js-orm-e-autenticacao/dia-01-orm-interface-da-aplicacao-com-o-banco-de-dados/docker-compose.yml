@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    image: trybe-course
+    restart: always
+    ports:
+      - 3001:3001
+    environment:
+      DB_USER: root
+      DB_PASSWORD: password
+      DB_NAME: orm_trybe
+      DB_HOST: db
+    depends_on: 
+      - db
+    command: dev
+    volumes:
+      - .:/app
+  
+  db:
+    image: mysql:8.0.32
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db_data:/var/lib/mysql

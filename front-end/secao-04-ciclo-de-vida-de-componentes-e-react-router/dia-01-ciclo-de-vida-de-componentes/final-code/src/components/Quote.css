@@ -1,0 +1,59 @@
+.quote {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 10px 0;
+  display: flex;
+}
+
+.quote .quoteDetails {
+  flex: 1
+}
+
+.quoteText {
+  font-family: "Merriweather", "Georgia", serif;
+  font-size: 14px;
+  padding: 0px 5px 10px 0px;
+  line-height: 21px;
+}
+
+.quoteText .authorOrTitle {
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+.actionButton {
+  border-radius: 3px;
+  border: 1px solid #D6D0C4;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 14px;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+  background-color: #F4F1EA;
+  line-height: 1;
+  padding: 8px 12px;
+}
+
+.favorite-quotes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.favorite-quotes .card {
+  margin: 10px;
+  padding: 15px 25px;
+  max-width: 300px;
+}
+
+.favorite-quotes button {
+  background-color: #e22859;
+  color: white;
+}

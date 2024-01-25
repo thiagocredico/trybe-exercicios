@@ -1,0 +1,142 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "COURSE API",
+    "description": ""
+  },
+  "paths": {
+    "/course": {
+      "post": {
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema":{
+                "type": "object"
+              },
+              "examples": {
+                "Adiciona novo curso": {
+                  "value": {
+                    "name": "Fullstack Pleno",
+                    "description": "Formação de P. Desenvolvedora Fullstack Pleno",
+                    "creationDate": "2019-06-01T00:00:00.000Z",
+                    "active": true,
+                    "duration": 12,
+                    "modules": [{
+                            "name": "Fundamentos Pleno",
+                            "description": "Base para programação",
+                            "duration": "2",
+                            "qtBlock": "8"
+                        },
+                        {
+                            "name": "Frontend Pleno",
+                            "description": "Base para programação frontend",
+                            "duration": "2",
+                            "qtBlock": "9"
+                        },
+                        {
+                            "name": "Backend Pleno",
+                            "description": "Base para programação backend",
+                            "duration": "7",
+                            "qtBlock": "13"
+                        },
+                        {
+                            "name": "CS Pleno",
+                            "description": "Base para programação CS",
+                            "duration": "2",
+                            "qtBlock": "5"
+                        }
+                    ]
+                  }
+                },
+                "Adiciona curso sem name para explicar transações": {
+                  "value": {
+                    "name": "Fullstack Pleno",
+                    "description": "Formação de P. Desenvolvedora Fullstack Pleno",
+                    "creationDate": "2019-06-01T00:00:00.000Z",
+                    "active": true,
+                    "duration": 12,
+                    "modules": [{
+                            "name": "Fundamentos Pleno",
+                            "description": "Base para programação",
+                            "duration": "2",
+                            "qtBlock": "8"
+                        },
+                        {
+                            "description": "Base para programação frontend",
+                            "duration": "2",
+                            "qtBlock": "9"
+                        },
+                        {
+                            "name": "Backend Pleno",
+                            "description": "Base para programação backend",
+                            "duration": "7",
+                            "qtBlock": "13"
+                        },
+                        {
+                            "name": "CS Pleno",
+                            "description": "Base para programação CS",
+                            "duration": "2",
+                            "qtBlock": "5"
+                        }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {}
+        }
+      },
+      "get": {
+        "responses": {
+          "200": {}
+        }
+      },
+      "put": {
+        "responses": {
+          "200": {}
+        }
+      },
+      "delete": {
+        "responses": {
+          "200": {}
+        }
+      }
+    },
+    "/student": {
+      "post": {
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema":{
+                "type": "object"
+              },
+              "examples": {
+                "Adiciona nova pessoa estudante": {
+                  "value": {
+                    "name": "Pessoa estudante Fullstack Pleno",
+                    "email": "trybe@gmail.com",
+                    "birthday": "1980-12-14",
+                    "active": true,
+                    "idCourse": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {}
+        }
+      },
+      "get": {
+        "responses": {
+          "200": {}
+        }
+      }
+    }
+  }
+}

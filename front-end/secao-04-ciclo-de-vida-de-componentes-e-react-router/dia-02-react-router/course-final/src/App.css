@@ -1,0 +1,32 @@
+.change-btn {
+  background-color: #1db702;
+  color: white;
+}
+
+.main-quote {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.main-quote > button {
+  background-color: #3e4854;
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+}
+
+.container main {
+  padding: 1rem;
+}
+
+@media (max-width: 550px) {
+  .container {
+    grid-template-columns: 130px 1fr;
+  }
+}

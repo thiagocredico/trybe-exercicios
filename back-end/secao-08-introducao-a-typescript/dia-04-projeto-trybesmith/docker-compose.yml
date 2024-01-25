@@ -1,0 +1,55 @@
+version: "3.1"
+
+services:
+  # Serviço que irá rodar o node
+  app-trybe-cast:
+    # Imagem base do container
+    build: .
+    # Nome do container para facilitar execução
+    container_name: trybe_cast
+    # Mesmo que `docker run -t`
+    tty: true
+    # Mesmo que `docker run -i`
+    stdin_open: true
+    # Substitui o comando padrão da imagem do node
+    command: npm run dev # inicia a API quando container for iniciado
+    # Restarta a imagem caso algo a faça parar
+    restart: always
+    # platform: linux/x86_64
+    # Diretório padrão de execução
+    working_dir: /app
+    # Lista de volumes (diretórios) mapeados de fora para dentro do container
+    volumes:
+      # Monta o diretório atual, com todos os dados do projeto, 
+      # dentro do diretório /app
+      - ./:/app
+    # Lista de serviços do qual este serviço depende
+    depends_on:
+      # Precisa do banco funcionando antes de subir o node
+      - db
+    # Lista de portas mapeadas de dentro para fora do container
+    # na notação porta_de_fora:porta_de_dentro
+    ports:
+      # Expõe a porta padrão da aplicação: altere aqui caso use outra porta
+      - 3001:3001
+    # Configura as variáveis de ambiente dentro do container
+    environment:
+      DB_USER: root
+      DB_PASSWORD: password
+      DB_HOST: db
+      JWT_SECRET: secret
+      DB_PORT: 3306
+      DB_NAME: trybe_cast
+
+  # Serviço que irá rodar o banco de dados
+  db:
+    container_name: trybe_cast_db
+    image: mysql:8.0.32
+    restart: always
+    # Lista de portas mapeadas de dentro para fora do container
+    # na notação porta_de_fora:porta_de_dentro
+    ports:
+      # Expõe a porta padrão do banco de dados
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: password

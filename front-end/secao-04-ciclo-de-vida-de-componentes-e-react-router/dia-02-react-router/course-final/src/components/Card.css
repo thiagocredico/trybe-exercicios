@@ -1,0 +1,17 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: white;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.card__img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+}
+
+.card__body {
+  text-align: center;
+}

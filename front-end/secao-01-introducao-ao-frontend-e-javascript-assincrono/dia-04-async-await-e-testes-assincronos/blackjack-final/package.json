@@ -1,0 +1,33 @@
+{
+  "name": "sd-029-b-live-lectures",
+  "version": "1.0.0",
+  "description": "Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelos especialistas da Trybe.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 jest --watchAll",
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryber/sd-029-b-live-lectures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryber/sd-029-b-live-lectures/issues"
+  },
+  "homepage": "https://github.com/tryber/sd-029-b-live-lectures#readme",
+  "dependencies": {
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-jest": "^29.4.2",
+    "eslint": "^8.33.0",
+    "jest": "^29.4.2",
+    "node-fetch": "^3.3.0"
+  }
+}

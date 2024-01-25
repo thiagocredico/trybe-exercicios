@@ -1,0 +1,23 @@
+.repo {
+  box-shadow: var(--shadow-1);
+  margin-bottom: 1em;
+  background-color: var(--grey);
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.Home {
+  width: 100%;
+  padding: 40px;
+}
+
+.Home input {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.App__Light .repo {
+  color: white;
+  background-color: var(--dark-green);
+
+}

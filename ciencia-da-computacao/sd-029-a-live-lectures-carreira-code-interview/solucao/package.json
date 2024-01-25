@@ -1,0 +1,16 @@
+{
+  "name": "solucao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "3.js",
+  "scripts": {
+    "dev": "nodemon --exec npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}

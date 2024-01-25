@@ -1,0 +1,26 @@
+.change-btn {
+  background-color: #1db702;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 5px 20px;
+}
+
+.main-quote {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.main-quote > button {
+  background-color: #3e4854;
+  margin: 10px;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+}

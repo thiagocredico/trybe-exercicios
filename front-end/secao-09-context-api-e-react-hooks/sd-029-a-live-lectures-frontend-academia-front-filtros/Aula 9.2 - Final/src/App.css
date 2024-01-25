@@ -1,0 +1,52 @@
+.App__Dark {
+  background-color: var(--dark-grey);
+  color: white;
+  /* height: 100vh; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App__Light {
+  background-color: white;
+  color: var(--dark-grey);
+  /* height: 100vh; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App__Light input{
+  background-color: var(--grey);
+  color: white;
+}
+
+.App__Light img{
+ filter: invert(0.3);
+}
+
+header {
+  text-align: right;
+  padding: 0.5em;
+}
+.theme {
+  display: inline;
+}
+
+.App__UserPhoto {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.App__ContentMenuItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

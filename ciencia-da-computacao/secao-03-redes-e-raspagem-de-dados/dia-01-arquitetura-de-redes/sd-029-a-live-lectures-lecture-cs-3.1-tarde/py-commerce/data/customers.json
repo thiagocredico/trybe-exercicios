@@ -1,0 +1,17 @@
+[
+    {
+    "name": "Rafael Maltez",
+    "email": "rafael.maltez@betrybe.com",
+    "address": "Rua das Flores, 123"
+    }, 
+    {
+    "name": "Maria Carolina",
+    "email": "maria.amaral@betrybe.com",
+    "address": "Av. Brasil, 10"
+    },
+    {
+    "name": "Ana Laura",
+    "email": "ana.berger@betrybe.com",
+    "address": "Rua Piracicaba, 84"
+    }
+]

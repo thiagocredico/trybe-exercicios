@@ -1,0 +1,17 @@
+.register {
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register button {
+  cursor: pointer;
+  display: block;
+  transition: 0.1s;
+  width: 100%;
+  margin: 10px 0;
+}

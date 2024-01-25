@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  /* border: red 1px solid; */
+  background-color: white;
+  width: 100%;
+  /* position: fixed; */
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 5px black;
+}
+
+header img {
+  width: 120px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0 10px;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:visited, a:hover, a:active {
+  color: black;
+}
+
+nav, ul {
+  list-style: none;
+}
+
+.hero {
+  background-image: url(images/farao_hero.jpeg);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(70, 87, 103);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.hero h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.hero .btn {
+  background-color: white;
+  border-radius: 4px;
+  color:rgb(70, 87, 103);
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+.know-the-farao {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.know-the-farao h3 {
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.know-the-farao p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.know-the-farao hr {
+  width: 200px;
+  height: 2px;
+  margin-bottom: 70px;
+  border: none;
+  background-color: black;
+}
+
+.know-the-farao .grid {
+  /* border: 1px red solid; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid img {
+  height: 180px;
+  padding: 20px;
+}
+
+/* .small {
+  align-self:flex-end;
+} */
+
+.features {
+  background-color: rgb(62, 78, 188);
+  padding: 100px 50px;
+  display: flex;
+  /* height: 500px; */
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.features h3 {
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
+
+.features p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
+
+.features hr {
+  width: 200px;
+  height: 2px;
+  margin-bottom: 70px;
+  border: none;
+  background-color: white;
+}
+
+.features .grid {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.features .grid li {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.features .grid li i {
+  color: rgb(255, 166, 0);
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.features .grid li h4 {
+  font-size: 25px;
+  color: rgb(255, 166, 0);
+  margin-bottom: 30px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.newsletter h3 {
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.newsletter p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+}
+
+.newsletter input {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 15px;
+  margin-top: 7px;
+  flex-grow: 1;
+}
+
+.newsletter button {
+  padding: 15px;
+  background-color: rgb(255, 166, 0);
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(62, 78, 188);
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
+
+/* footer ul li:first-child {
+  margin-right: 200px;
+} */
+
+footer ul li i {
+  color: rgb(255, 166, 0);
+  font-size: 25px;
+}
+
+footer p {
+  color: rgb(255, 166, 0);
+  text-align: center;
+}
+
+footer ul li:nth-child(1) {
+  /* order: 3; */
+}
+
+footer ul li:nth-child(2) {
+  order: 4;
+  /* color: red; */
+}
+
+footer ul li:nth-child(3) {
+  /* order: 3; */
+}
+
+footer ul li:nth-child(4) {
+  /* order: 2; */
+}

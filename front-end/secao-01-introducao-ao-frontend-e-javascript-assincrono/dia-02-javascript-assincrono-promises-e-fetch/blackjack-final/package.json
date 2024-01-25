@@ -1,0 +1,28 @@
+{
+  "name": "sd-029-b-live-lectures",
+  "version": "1.0.0",
+  "description": "Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelos especialistas da Trybe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryber/sd-029-b-live-lectures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryber/sd-029-b-live-lectures/issues"
+  },
+  "homepage": "https://github.com/tryber/sd-029-b-live-lectures#readme",
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3"
+  },
+  "dependencies": {
+    "vite": "^4.1.1"
+  }
+}

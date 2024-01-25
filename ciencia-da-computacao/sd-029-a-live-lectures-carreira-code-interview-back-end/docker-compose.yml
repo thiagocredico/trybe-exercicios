@@ -1,0 +1,36 @@
+version: '3.1'
+
+services:
+  back:
+    platform: linux/x86_64
+    build: ./
+    container_name: back
+    command: dev
+    working_dir: /app
+    user: "${UID:-1000}:${GID:-1000}"
+    ports:
+      - 6060:6060
+      - 5555:5555
+    volumes:
+      - ./:/app
+    env_file:
+      - .env
+    networks:
+      - airbnb_net
+    depends_on:
+      - mysqldb
+  mysqldb:
+    platform: linux/x86_64
+    image: mysql:8.0.26
+    container_name: mysqldb
+    command: --default-authentication-plugin=caching_sha2_password
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - 3306:3306
+    networks:
+      - airbnb_net
+networks:
+  airbnb_net:
+    external: true

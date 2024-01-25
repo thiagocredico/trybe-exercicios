@@ -1,0 +1,129 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+p,li {
+  font-size: 16px;
+  color: #475550;
+  /* background-color: blue; */
+}
+
+h1,h3,h2,h4 {
+  color: #11a36a;
+}
+
+#header{
+  background-image: url(/images/smiling-image.jpeg);
+  /* height: 800px; */
+  background-position: 50% 25%;
+  background-size: cover;
+  padding: 60px 30px 40px 30px;
+}
+
+#header-content{
+  /* background-color: orange; */
+  max-width: 50%;
+  margin-left: 75px;
+}
+
+.trybe_black {
+  color: black;
+}
+
+.hero-title {
+  color: #0a7e51;
+  line-height: 55px;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.header-text{
+  max-width: 80%;
+  text-align: left;
+}
+
+.header-text {
+ margin-bottom: 30px;
+}
+
+.marketing{
+padding: 70px 30px;
+text-align: center;
+}
+
+.marketing-text{
+max-width: 60%;
+margin:auto;
+}
+
+/* .marketing-text p{
+  margin-bottom: 30px;
+  } */
+
+.section-title {
+  line-height: 48px;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 60px;
+  margin-top:10px;
+}
+
+.student-testimonial{
+  padding: 30px 70px 90px 70px;
+  width: 80%;
+  margin:auto;
+}
+
+.student-container{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.learning{
+  padding: 30px 70px;
+  min-height: 350px;
+  background-color: #e7e7e7;
+}
+
+.learning-left{
+  float:left;
+  max-width: 35%;
+  margin-left: 20px;
+}
+
+.learning-right{
+  float:right;
+  width: 400px;
+  /* adicionei uma largura máxima para o elemento que traz a foto para não flutuar para baixo; */
+}
+
+.footer{
+  clear:both;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.picture {
+  border-radius: 50%;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.button {
+  color: #fff;
+  background-color: #0a7e51;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+}

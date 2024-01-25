@@ -1,0 +1,9 @@
+__mocks__
+__tests__
+*.test.tsx
+*.test.js
+jest.*
+next.config.js
+node_modules
+.next
+/coverage/*

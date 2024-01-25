@@ -1,0 +1,36 @@
+{
+  "name": "sd-029-a-live-lectures",
+  "version": "1.0.0",
+  "description": "```javascript npm init -y npm install express npm install typescript npm install ts-node npm install cors npm install prisma npm install ts-node-dev --save-dev",
+  "main": "index.js",
+  "scripts": {
+    "docker-build": "npm run docker-create-network && npm run docker-npm-install",
+    "docker-npm-install": "docker run -it -u $(id -u) -v $(pwd):/app -w /app node:16.14.2-bullseye npm install",
+    "docker-create-network": "docker network create shc_net",
+    "start": "tsc ./src/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only --exit-child ./src/server.ts --clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.16.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "prisma": "^4.16.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^15.0.0",
+    "eslint-plugin-editorconfig": "^3.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}

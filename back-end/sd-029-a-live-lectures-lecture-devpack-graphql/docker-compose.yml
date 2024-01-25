@@ -1,0 +1,36 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: dev
+    environment:
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=mydatabase
+      - MYSQL_USER=root
+    ports:
+      - 4000:4000
+    networks:
+      - net
+    depends_on:
+      - db
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/app
+  db:
+    image: mysql:8.0.32
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE=mydatabase
+      - MYSQL_ROOT_PASSWORD=password
+    networks:
+      - net
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./scripts:/docker-entrypoint-initdb.d
+
+networks:
+  net:

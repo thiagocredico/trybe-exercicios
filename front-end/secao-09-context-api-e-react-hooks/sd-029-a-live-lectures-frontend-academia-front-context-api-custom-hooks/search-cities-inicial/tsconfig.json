@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["src/components/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/enums/*": ["src/enums/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/contexts/*": ["src/contexts/*"],
+      "@/services/*": ["src/services/*"],
+      "@/data/*": ["src/data/*"],
+      "@/interfaces/*": ["src/interfaces/*"],
+      "@/models/*": ["src/models/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/mocks/*": ["src/mocks/*"],
+      "@/styles/*": ["src/styles/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts", "**/styles.ts", "mocks/signin.ts", "__tests__/Pages/LandingPage.test.js", "__tests__/Pages/Dashboard.test.js", "__tests__/Components/Layout.test.js"],
+  "exclude": ["node_modules"]
+}

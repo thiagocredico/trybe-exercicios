@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "A Trymazon é um e-commerce e está precisando recuperar uma lista de produtos do banco de dados. Existem vários produtos, cada um dos quais em grande quantidade. Com isso, existe uma preocupação com a ideia de apresentar todos os dados de uma única vez e isso atrapalhar a experiência da pessoa usuária, bem como prejudicar a performance da aplicação. Assim sendo, foi especificado que cada tipo de produto seja exibido em sua própria página para que as pessoas usuárias possam navegar pelos produtos. Ainda sim, será necessário usar a uma mesma função para obter produtos de quaisquer tipos.",
+  "main": "src/main.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "Trybe",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.56.0",
+    "@typescript-eslint/parser": "5.56.0",
+    "eslint": "8.36.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-plugin-editorconfig": "4.0.2",
+    "eslint-plugin-mocha": "10.1.0",
+    "eslint-plugin-sonarjs": "0.19.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.4.4"
+  }
+}

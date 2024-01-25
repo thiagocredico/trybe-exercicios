@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+}
+
+.table {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/background.png');
+  background-position: center;
+  overflow: hidden;
+}
+
+.top {
+  background-image: url('./assets/topBackground.png');
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  background-repeat: repeat;
+  background-size: 220px;
+  border: 6px solid #ffffff;
+  border-top: none;
+  position: relative;
+  width: 500px;
+  height: 270px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.deck {
+  background-image: url(./assets/deck.png);
+  width: 75px;
+  height: 110px;
+  background-size: cover;
+  position: absolute;
+  left: 70px;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deck.hidden {
+  background: transparent;
+}
+
+.shuffle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.53);
+  border: 3px solid #ffffff;
+  cursor: pointer;
+}
+
+.shuffle img {
+  width: 100%;
+}
+
+.shuffle:disabled {
+  display: none;
+}
+
+.shuffle:hover {
+  transform: scale(1.1);
+}
+
+.scoreContainer {
+  flex: 0 0 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.score {
+  font-size: 36px;
+  color: black;
+  width: 56px;
+  background: #ffffff;
+  border-radius: 21px;
+  text-align: center;
+}
+
+.result {
+  position: absolute;
+  left: 65%;
+}
+
+.cards {
+  position: relative;
+  background-image: url('./assets/cardsBase.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards > .card {
+  position: absolute;
+  width: 80%;
+}
+
+.cards > .card:nth-child(2) {
+  top: 2%;
+  right: -2%;
+}
+
+.cards > .card:nth-child(3) {
+  top: -6%;
+  right: -12%;
+}
+
+.cards > .card:nth-child(4) {
+  top: -14%;
+  right: -22%;
+}
+
+.cards > .card:nth-child(5) {
+  top: -22%;
+  right: -32%;
+}
+
+.cards > .card:nth-child(6) {
+  top: -30%;
+  right: -42%;
+}
+
+.cards > .card:nth-child(7) {
+  top: -38%;
+  right: -52%;
+}
+
+.cards > .card:nth-child(8) {
+  top: -46%;
+  right: -62%;
+}
+
+.player-1.cards {
+  height: 170px;
+  width: 116px;
+}
+
+.player-2.cards {
+  height: 112px;
+  width: 77px;
+}
+
+.cards.player-1::before {
+  content: '';
+  width: 116px;
+  height: 169px;
+  position: absolute;
+  background-image: url(./assets/cardsBase.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -25px;
+  right: -200px;
+  transform: rotate(-17deg);
+}
+
+.cards.player-1::after {
+  content: '';
+  width: 116px;
+  height: 169px;
+  position: absolute;
+  background-image: url(./assets/cardsBase.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -25px;
+  left: -200px;
+  transform: rotate(17deg);
+}
+
+h1 {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+.result {
+  width: 45px;
+  height: 50px;
+}
+
+.gameBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 35px;
+  border: 4px solid #ffffff;
+  border-radius: 5px;
+  color: white;
+}
+
+.gameBtn.draw {
+  background-color: rgb(137, 207, 31);
+  border-color: rgb(153, 255, 0);
+}
+
+.gameBtn.stop {
+  background-color: rgb(214, 0, 0);
+  border-color: rgb(255, 0, 0);
+}
+
+.gameBtn:enabled:hover {
+  transform: scale(1.1);
+}
+
+.gameBtn:enabled:active {
+  transform: scale(0.9);
+}
+
+.gameBtn:disabled {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.center {
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+  width: 375px;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.chips {
+  width: 140px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+img.hidden {
+  opacity: 0;
+}

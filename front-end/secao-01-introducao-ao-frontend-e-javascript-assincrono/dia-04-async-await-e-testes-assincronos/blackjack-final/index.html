@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./src/main.js" type="module"></script>
+    <script src="./src/asyncAwait.js" type="module"></script>
+    <title>Blackjack</title>
+  </head>
+
+  <body>
+    <div class="table">
+      <div class="top">
+        <div class="deck hidden">
+          <button class="shuffle">
+            <img src="src/assets/shuffle.png" alt="Embaralhar cartas" />
+          </button>
+        </div>
+        <div class="player-2 cards"></div>
+        <div class="scoreContainer">
+          <div class="player-2 score">0</div>
+        </div>
+      </div>
+      <h1>BLACKJACK</h1>
+      <div class="center">
+        <div class="player-1 cards"></div>
+        <div class="scoreContainer">
+          <div class="player-1 score">0</div>
+          <img
+            src="src/assets/win.png"
+            alt="Resultado da partida"
+            class="result hidden"
+          />
+        </div>
+        <div class="buttons">
+          <button class="draw gameBtn" disabled>+</button>
+          <button class="stop gameBtn" disabled>-</button>
+        </div>
+        <img src="./src/assets/chips.png" alt="casino chips" class="chips" />
+      </div>
+    </div>
+  </body>
+</html>

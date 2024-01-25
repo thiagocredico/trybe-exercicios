@@ -1,0 +1,90 @@
+body {
+    background-image: url(./files/backgroundMario.jpeg);
+  }
+  
+.center{
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  background-color: #fff;
+  padding: 20px;
+}
+
+span {
+  font-family: fantasy;
+  background: #fff;
+  font-size: 40px;
+  padding: 0 20px;
+  /* margin: 0; */
+}
+
+.alternative-car1 {
+  background-image: url(./files/yoshi.png);
+  background-size: cover;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+}
+
+.alternative-car2 {
+  background-image: url(./files/mario.png);
+  background-size: cover;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+}
+
+.alternative-car3 {
+  background-image: url(./files/luigi.png);
+  background-size: cover;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+}
+
+.alternative-car4 {
+  background-image: url(./files/peach.png);
+  background-size: cover;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+}
+
+.alternatives {
+  /* border: red 3px solid; */
+  width: 700px;
+  margin: auto;
+}
+
+button {
+  margin-top: 20px;
+  font-size: xx-large;
+  background-color: rgb(39, 164, 54);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10%;
+}
+
+.startCar {
+  width: 152px;
+  height: 152px;
+  background-image: url(./files/selectPlayer.png);
+  background-size: cover;
+}
+
+.car-section {
+  text-align: left;
+}
+
+.pointing{
+  border: 5px solid rgb(33, 182, 137);
+  border-radius: 5px;
+  background-color: white;
+  font-size: 25px;
+  padding: 5px 10px;
+  margin: 5px 60px;
+  display: inline-block;
+ }
+ 

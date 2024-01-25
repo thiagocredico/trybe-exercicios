@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "extends": "trybe-backend",
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "sonarjs/no-duplicate-string": [
+            "error",
+            5
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+</head>
+
+<body>
+
+  <header class="top">
+    <button class="shuffle">
+      <img src="src/imgs/shuffle.png" alt="Embaralhar cartas">
+    </button>
+    <div class="player-2 cards"></div>
+    <div class="player-2 score">0</div>
+  </header>
+
+  <h1>BLACKJACK</h1>
+
+  <main class="center">
+
+    <div class="player-1 cards"></div>
+    <div class="player-1 score">0</div>
+
+    <div class="buttons">
+      <button class="draw gameBtn" disabled>+</button>
+      <button class="stop gameBtn" disabled>-</button>
+    </div>
+    <img src="src/imgs/win.png" alt="Resultado da partida" class="result hidden">
+  </main>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>

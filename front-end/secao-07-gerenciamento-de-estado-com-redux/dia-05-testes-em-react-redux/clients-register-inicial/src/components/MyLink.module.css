@@ -1,0 +1,13 @@
+.link {
+  align-items: center;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  transition: 0.1s;
+}
+
+.link:hover {
+  background-color: #ffffff1f;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify Form</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-elements" id="header-elements">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Spotify_icon.png" alt="">
+            <h1>Junior Web Developer</h1>
+            <h5>SÃO PAULO, SP / PERMANENT / REMOTE</h5>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <form action="" method="post">
+            <!-- FORMULÁRIO -->
+            <!-- Envio do resumo do currículo em PDF -->
+            <div class="inputs">
+                <label for="resume">Resume/CV:*</label>
+                <input type="file" name="resume" id="resume" required>
+            </div>
+
+            <!-- Nome completo -->
+            <div class="inputs">
+                <label for="full-name">Full name:*</label>
+                <input type="text" name="test" id="full-name" required>
+            </div>
+            <!-- Pronomes -->
+            <div class="inputs">
+                <label>Pronouns:</label>
+                <input type="radio" name="pronouns" id="he-him" value="he-him">
+                <label for="he-him">He/Him</label>
+
+                <input type="radio" name="pronouns" id="she-her" value="she-her">
+                <label for="she-her">She/Her</label>
+
+                <input type="radio" name="pronouns" id="they-them" value="they-them">
+                <label for="they-them">They/Them</label>
+            </div>
+            <!-- E-mail -->
+            <div class="inputs">
+                <label for="email">E-mail:*</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <!-- Data de nascimento -->
+            <div class="inputs">
+                <label for="birth-date">Birth date:</label>
+                <input type="date" name="birth-date" id="birth-date">
+            </div>
+            <!--LINKS-->
+            <hr>
+
+            <h5>LINKS</h5>
+            <!-- link LinkId -->
+            <div class="inputs">
+                <label for="linkeIdn">LinkeIdn</label>
+                <input type="url" name="linkeIdn" id="linkeIdn">
+            </div>
+            <!-- link GitHub -->
+            <div class="inputs">
+                <label for="github">GitHub</label>
+                <input type="url" name="github" id="github">
+            </div>
+            <!--ADDITIONAL INFORMATIONS-->
+            <hr>
+            <h5>ADDITIONAL INFORMATION</h5>
+            <!-- Área de texto -->
+            <div class="inputs">
+                <textarea name="cover-letter" id="cover-letter" cols="40" rows="8"></textarea>
+            </div>
+            
+
+            <!--DEMOGRAPHIC SURVEY-->
+            <hr>
+            <!-- Qual a sua localização? -->
+            <div class="inputs">
+                <label for="location">What is your location?</label>
+                <select name="country" id="country">
+                    <option value="NULL">Select...</option>
+                    <option value="BR">Brazil</option>
+                    <option value="AR">Argentina</option>
+                    <option value="FR">França</option>
+                </select>
+                
+            </div>
+            <!-- Aceitar receber novas vagas? -->
+
+            <!-- BOTÃO DE ENVIAR E RESET-->
+            <hr>
+            <div class="inputs">
+                <label for="consent">
+                    <input type="checkbox" name="consent" id="consent">
+                    Yes, Spotify can contact me about future job opportunities for up to 3 years
+                </label>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" id="btn-submit"> SUBMIT </button>
+                <button type="reset" id="btn-reset"> RESET </button>
+            </div>
+        </form>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>

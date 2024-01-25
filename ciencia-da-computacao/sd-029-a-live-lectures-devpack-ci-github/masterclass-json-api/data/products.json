@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "name": "Cerveja Skol",
+    "brand": "Ambev"
+  },
+  {
+    "id": 2,
+    "name": "Monitor AGON",
+    "brand": "AOC"
+  },
+  {
+    "id": 3,
+    "name": "MacBook Air",
+    "brand": "Apple"
+  },
+  {
+    "id": 4,
+    "name": "Smartphone Galaxy S21",
+    "brand": "Samsung"
+  },
+  {
+    "id": 5,
+    "name": "Fone de Ouvido WH-1000XM4",
+    "brand": "Sony"
+  },
+  {
+    "id": 6,
+    "name": "Tênis Air Jordan 1",
+    "brand": "Nike"
+  },
+  {
+    "id": 7,
+    "name": "Livro Sapiens: Uma Breve História da Humanidade",
+    "brand": "Yuval Noah Harari"
+  },
+  {
+    "id": 8,
+    "name": "Guitarra Fender Stratocaster",
+    "brand": "Fender"
+  },
+  {
+    "id": 9,
+    "name": "Bola de Futebol",
+    "brand": "Nike"
+  },
+  {
+    "id": 10,
+    "name": "Chave de Fenda",
+    "brand": "Tramontina"
+  },
+  {
+    "id": 11,
+    "name": "Televisão OLED 4K",
+    "brand": "LG"
+  },
+  {
+    "id": 12,
+    "name": "Notebook ThinkPad X1 Carbon",
+    "brand": "Lenovo"
+  },
+  {
+    "id": 13,
+    "name": "Máquina de Lavar Roupas",
+    "brand": "Brastemp"
+  },
+  {
+    "id": 14,
+    "name": "Câmera DSLR EOS Rebel T7i",
+    "brand": "Canon"
+  },
+  {
+    "id": 15,
+    "name": "Piano Digital",
+    "brand": "Roland"
+  },
+  {
+    "id": 16,
+    "name": "Kindle Paperwhite",
+    "brand": "Amazon"
+  },
+  {
+    "id": 17,
+    "name": "Bicicleta Mountain Bike",
+    "brand": "Caloi"
+  },
+  {
+    "id": 18,
+    "name": "Caixa de Som Bluetooth",
+    "brand": "JBL"
+  },
+  {
+    "id": 19,
+    "name": "Óculos de Sol Aviador",
+    "brand": "Ray-Ban"
+  },
+  {
+    "id": 20,
+    "name": "Capa para Celular",
+    "brand": "Spigen"
+  },
+  {
+    "id": 21,
+    "name": "Cadeira Gamer",
+    "brand": "DXRacer"
+  },
+  {
+    "id": 22,
+    "name": "Smart TV 4K",
+    "brand": "Samsung"
+  },
+  {
+    "id": 23,
+    "name": "Relógio de Pulso",
+    "brand": "Casio"
+  },
+  {
+    "id": 24,
+    "name": "Ferramenta Multifuncional",
+    "brand": "Leatherman"
+  },
+  {
+    "id": 25,
+    "name": "Fraldas Descartáveis",
+    "brand": "Pampers"
+  },
+  {
+    "id": 26,
+    "name": "Mochila Escolar",
+    "brand": "JanSport"
+  },
+  {
+    "id": 27,
+    "name": "Escova de Dentes Elétrica",
+    "brand": "Oral-B"
+  },
+  {
+    "id": 28,
+    "name": "Videogame Xbox Series X",
+    "brand": "Microsoft"
+  },
+  {
+    "id": 29,
+    "name": "Cafeteira Nespresso",
+    "brand": "Nestlé"
+  },
+  {
+    "id": 30,
+    "name": "Perfume Chanel Nº 5",
+    "brand": "Chanel"
+  },
+  {
+    "id": 31,
+    "name": "Carro Elétrico",
+    "brand": "Tesla"
+  },
+  {
+    "id": 32,
+    "name": "Forno Elétrico",
+    "brand": "Electrolux"
+  },
+  {
+    "id": 33,
+    "name": "Chapéu Panamá",
+    "brand": "Pandora"
+  },
+  {
+    "id": 34,
+    "name": "Roteador Wi-Fi",
+    "brand": "TP-Link"
+  },
+  {
+    "id": 35,
+    "name": "Tênis de Corrida",
+    "brand": "Adidas"
+  },
+  {
+    "id": 36,
+    "name": "Purificador de Ar",
+    "brand": "Philips"
+  },
+  {
+    "id": 37,
+    "name": "Panela de Pressão",
+    "brand": "Rochedo"
+  },
+  {
+    "id": 38,
+    "name": "Violão Acústico",
+    "brand": "Yamaha"
+  },
+  {
+    "id": 39,
+    "name": "Ventilador de Teto",
+    "brand": "Arno"
+  },
+  {
+    "id": 40,
+    "name": "Cadeira de Praia",
+    "brand": "Mor"
+  },
+  {
+    "id": 41,
+    "name": "Celular iPhone 12",
+    "brand": "Apple"
+  },
+  {
+    "id": 42,
+    "name": "Smartwatch Galaxy Watch Active2",
+    "brand": "Samsung"
+  },
+  {
+    "id": 43,
+    "name": "Secador de Cabelo",
+    "brand": "Taiff"
+  },
+  {
+    "id": 44,
+    "name": "Teclado Mecânico",
+    "brand": "Razer"
+  },
+  {
+    "id": 45,
+    "name": "Conjunto de Panelas",
+    "brand": "Tramontina"
+  },
+  {
+    "id": 46,
+    "name": "Lâmpada LED",
+    "brand": "Osram"
+  },
+  {
+    "id": 47,
+    "name": "Fogão a Gás",
+    "brand": "Consul"
+  },
+  {
+    "id": 48,
+    "name": "Mala de Viagem",
+    "brand": "Samsonite"
+  },
+  {
+    "id": 49,
+    "name": "Mesa de Escritório",
+    "brand": "Tvilum"
+  },
+  {
+    "id": 50,
+    "name": "Impressora Multifuncional",
+    "brand": "Epson"
+  },
+  {
+    "id": 51,
+    "name": "Mouse Gamer",
+    "brand": "Logitech"
+  },
+  {
+    "id": 52,
+    "name": "Tinta para Cabelo",
+    "brand": "L'Oréal"
+  },
+  {
+    "id": 53,
+    "name": "Creme Hidratante Facial",
+    "brand": "Nivea"
+  },
+  {
+    "id": 54,
+    "name": "Placa de Vídeo",
+    "brand": "NVIDIA"
+  },
+  {
+    "id": 55,
+    "name": "Relógio Inteligente",
+    "brand": "Fitbit"
+  },
+  {
+    "id": 56,
+    "name": "Cadeado TSA",
+    "brand": "Master Lock"
+  },
+  {
+    "id": 57,
+    "name": "Mesa de Jantar",
+    "brand": "Dalla Costa"
+  },
+  {
+    "id": 58,
+    "name": "Caneta Esferográfica",
+    "brand": "Bic"
+  },
+  {
+    "id": 59,
+    "name": "Câmera de Segurança",
+    "brand": "Arlo"
+  },
+  {
+    "id": 60,
+    "name": "Amplificador de Áudio",
+    "brand": "Marshall"
+  },
+  {
+    "id": 61,
+    "name": "Roupa de Banho",
+    "brand": "Speedo"
+  },
+  {
+    "id": 62,
+    "name": "Fone de Ouvido Bluetooth",
+    "brand": "Beats"
+  },
+  {
+    "id": 63,
+    "name": "Monitor Curvo",
+    "brand": "Dell"
+  },
+  {
+    "id": 64,
+    "name": "Aparelho de Barbear",
+    "brand": "Gillette"
+  },
+  {
+    "id": 65,
+    "name": "Mesa de Centro",
+    "brand": "Tok Stok"
+  },
+  {
+    "id": 66,
+    "name": "Máquina de Café Expresso",
+    "brand": "De'Longhi"
+  },
+  {
+    "id": 67,
+    "name": "Tênis de Basquete",
+    "brand": "Under Armour"
+  },
+  {
+    "id": 68,
+    "name": "Garrafa Térmica",
+    "brand": "Termolar"
+  },
+  {
+    "id": 69,
+    "name": "Escova de Cabelo",
+    "brand": "Tangle Teezer"
+  },
+  {
+    "id": 70,
+    "name": "Churrasqueira a Carvão",
+    "brand": "Weber"
+  },
+  {
+    "id": 71,
+    "name": "Máquina de Cortar Cabelo",
+    "brand": "Wahl"
+  },
+  {
+    "id": 72,
+    "name": "Fone de Ouvido com Cancelamento de Ruído",
+    "brand": "Bose"
+  },
+  {
+    "id": 73,
+    "name": "Cama Box",
+    "brand": "Orthocrin"
+  },
+  {
+    "id": 74,
+    "name": "Teclado sem Fio",
+    "brand": "Microsoft"
+  },
+  {
+    "id": 75,
+    "name": "Laptop Gamer",
+    "brand": "Alienware"
+  },
+  {
+    "id": 76,
+    "name": "Bolsa Feminina",
+    "brand": "Louis Vuitton"
+  },
+  {
+    "id": 77,
+    "name": "Aparelho de Som",
+    "brand": "Sony"
+  },
+  {
+    "id": 78,
+    "name": "Mesa de Sinuca",
+    "brand": "Brunswick"
+  },
+  {
+    "id": 79,
+    "name": "Relógio de Parede",
+    "brand": "Herweg"
+  },
+  {
+    "id": 80,
+    "name": "Caixa de Ferramentas",
+    "brand": "Stanley"
+  },
+  {
+    "id": 81,
+    "name": "Smartphone Pixel 6",
+    "brand": "Google"
+  },
+  {
+    "id": 82,
+    "name": "Cafeteira Italiana",
+    "brand": "Bialetti"
+  },
+  {
+    "id": 83,
+    "name": "Bolsa Masculina",
+    "brand": "Nike"
+  },
+  {
+    "id": 84,
+    "name": "Lixeira com Sensor",
+    "brand": "Simplehuman"
+  },
+  {
+    "id": 85,
+    "name": "Cadeira de Balanço",
+    "brand": "Bells"
+  },
+  {
+    "id": 86,
+    "name": "Lanterna Recarregável",
+    "brand": "Maglite"
+  },
+  {
+    "id": 87,
+    "name": "Cabo HDMI",
+    "brand": "Belkin"
+  },
+  {
+    "id": 88,
+    "name": "Escova de Limpeza Facial",
+    "brand": "Foreo"
+  },
+  {
+    "id": 89,
+    "name": "Bicicleta Ergométrica",
+    "brand": "Kikos"
+  },
+  {
+    "id": 90,
+    "name": "Lente para Câmera DSLR",
+    "brand": "Sigma"
+  },
+  {
+    "id": 91,
+    "name": "Máquina de Gelo",
+    "brand": "Brastemp"
+  },
+  {
+    "id": 92,
+    "name": "Notebook Gamer",
+    "brand": "MSI"
+  },
+  {
+    "id": 93,
+    "name": "Mochila de Camping",
+    "brand": "Columbia"
+  },
+  {
+    "id": 94,
+    "name": "Cadeira de Praia",
+    "brand": "Nautika"
+  },
+  {
+    "id": 95,
+    "name": "Caixa de Som Portátil",
+    "brand": "Bose"
+  },
+  {
+    "id": 96,
+    "name": "Tênis de Skate",
+    "brand": "Vans"
+  },
+  {
+    "id": 97,
+    "name": "Chapinha de Cabelo",
+    "brand": "Gama Italy"
+  },
+  {
+    "id": 98,
+    "name": "Carrinho de Bebê",
+    "brand": "Graco"
+  },
+  {
+    "id": 99,
+    "name": "Moletom com Capuz",
+    "brand": "Hollister"
+  }
+]

@@ -1,0 +1,7 @@
+Principios do SOLID em artigos:
+
+https://www.campuscode.com.br/conteudos/s-o-l-i-d-principio-da-responsabilidade-unica
+https://www.campuscode.com.br/conteudos/s-o-l-i-d-principio-aberto-fechado
+https://www.campuscode.com.br/conteudos/s-o-l-i-d-principio-de-inversao-de-dependencia
+https://www.campuscode.com.br/conteudos/s-o-l-i-d-principio-de-substituicao-de-liskov
+https://www.campuscode.com.br/conteudos/s-o-l-i-d-principio-de-segregacao-de-interface
