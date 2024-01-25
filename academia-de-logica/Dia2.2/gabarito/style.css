@@ -1,0 +1,44 @@
+h1, h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: start;
+}
+
+#bloco-de-textos, #bloco-de-imagens {
+  text-align: center;
+}
+
+#bloco-de-textos > div {
+  background-color: lightgray;
+  display: inline-block;
+  padding: 15px;
+  margin: 0 20px;
+  width: 30%;
+}
+
+#bloco-de-textos p {
+  text-align: justify;
+}
+
+img {
+  width: 300px;
+}
+
+#bloco-de-imagens > img {
+  display: inline-block;
+  margin: 0 20px;
+  width: 30%;
+}
+
+#rodape {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+}
+
+#rodape p, a {
+  display: inline-block;
+  margin: 0 50px;
+}
